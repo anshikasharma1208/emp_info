@@ -1,0 +1,61 @@
+.ex-employees-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 190%; /* Changed from max-width to width */
+    margin: 20px auto; /* Adjusted margin to center the container and add top spacing */
+    height: calc(100vh - 100px); /* Full height minus the padding and other elements */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.ex-employees-container h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ex-employees-table {
+    width: 100%; /* Make sure the table takes up the full width of the container */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ex-employees-table th,
+.ex-employees-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.ex-employees-table th {
+    background-color: #112343;
+    color: white;
+}
+
+.ex-employees-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.ex-employees-table td {
+    color: #555;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: #007bff;
+}

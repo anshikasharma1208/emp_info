@@ -1,0 +1,41 @@
+/* src/components/EmployeeData.css */
+.employee-data-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 110%;
+}
+
+.employee-form {
+    margin-bottom: 20px;
+}
+
+.employee-form input,
+.employee-form button {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.employee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.employee-list button {
+    margin-left: 20px;
+    padding: 5px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
